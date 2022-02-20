@@ -14,10 +14,6 @@ stages:
   variables:  
   - name: TESTAPPURL
     value: 'https://mytestapp.dev.com'
-  - name: CLIENTID
-    value: '***REMOVED***'
-  - name: CLIENTSECRET
-    value: '***REMOVED***'
   jobs:
   - deployment: Deploy_TestApp_Production
     environment: testapp-prod.testapp-prod
